@@ -1,0 +1,30 @@
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+.env
+.venv/
+venv/
+.pytest_cache/
+.coverage
+htmlcov/
+*.swp
+*.tmp
+
+# Dirk runtime output
+graph/
+findings/
+
+# Port CLI temp output
+generated/
+component-inventory.yml
+porting-plan.yml
+
+# LiteLLM config
+config.yaml
+
+# Local settings
+.claude/settings.local.json
+
+# Embedded repos are tracked separately
+repos/
